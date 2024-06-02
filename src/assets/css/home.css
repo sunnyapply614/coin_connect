@@ -1,0 +1,209 @@
+.home {
+    width: 100%;
+    background: #D6D6D6;
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    flex-grow: 1;
+    color: black;
+    border: 4.65px solid grey;
+    width: 1326.71px;
+    height: 742.56px;
+    border-radius: 20.63px;
+}
+.home-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    padding-top: 50px;
+}
+.home-board-container{
+    width: 392.94px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.board-container{
+    width: 100%;
+    height: 185.64px;
+    border-radius: 20.63px;
+    background-color: #FFF;
+    padding: 30px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+.wallet-title{
+    font-family: Montserrat;
+    font-size: 18.56px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+}
+.wallet-title-mark {
+    width: 36.1px;
+    height: 36.1px;
+    top: 89.38px;
+    left: 599.95px;
+    border-radius: 10.31px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 190px;
+}
+.wallet-info {
+    font-family: Montserrat;
+    font-size: 36.1px;
+    font-weight: 600;
+    line-height: 44px;
+}
+.wallet-small {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.small-income {
+    font-family: Montserrat;
+    font-size: 14.44px;
+    font-weight: 600;
+    line-height: 17.6px;
+    text-align: left;
+
+}
+.small-out {
+    font-family: Montserrat;
+    font-size: 14.44px;
+    font-weight: 600;
+    line-height: 17.6px;
+    text-align: left;
+    margin-left: 20px;
+}
+.info-title {
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 18.56px;
+    font-weight: 600;
+    line-height: 22.63px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info-title-mark {
+    width: 30.94px;
+    height: 25.78px;
+    border-radius: 8.25px;
+    border: 1.03px solid;
+    border-color: black;
+}
+.info-content {
+    width: 392.94px;
+    height: 185.64px;
+    top: 288.05px;
+    left: 267.64px;
+    border-radius: 20.63px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.location-info{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.info-subtitle {
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat;
+    font-size: 12.38px;
+    font-weight: 600;
+    line-height: 15.09px;
+    text-align: left;
+    width: 70px;
+    color: black;
+    opacity: 50%;
+
+}
+.info-subcontent {
+    font-family: Montserrat;
+    font-size: 12.38px;
+    font-weight: 600;
+    line-height: 15.09px;
+    text-align: left;
+}
+.secure-title {
+    font-family: Montserrat;
+    font-size: 18.56px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+}
+.secure-content-info {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-left: 10px;
+    align-items: center;
+}
+.secure-content-subtitle {
+    font-family: Montserrat;
+    font-size: 12.38px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+}
+.secure-button {
+    width: 300px;
+    height: 25.78px;
+    top: 633.86px;
+    left: 543.64px;
+    border-radius: 8.25px;
+    border: 1.03px solid #00000040;
+    background-color: white;
+}
+.home-tran-container {
+    width: 392.94px;
+    height: 611.34px;
+    top: 72px;
+    left: 695.71px;
+    border-radius: 20.63px;
+    background: #FFFFFF;
+    margin: 10px;
+    padding: 30px;
+}
+.tran-title {
+    width: 162px;
+    font-family: Montserrat;
+    font-size: 15.47px;
+    font-weight: 600;
+    padding: 10px;
+}
+.home-tab-container {
+    margin-top: 10px;
+}
+.tab-container {
+    width: 165.01px;
+    height: 185.64px;
+    border-radius: 20.63px;
+    background-color: #FFF;
+    padding: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+}
+.tab-title {
+    font-family: Montserrat;
+    font-size: 14.44px;
+    font-weight: 600;
+}
