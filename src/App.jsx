@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
-// import { googleLogout, useGoogleLogin } from '@react-oauth/google';
-// import axios from 'axios';
+import React from 'react';
 import Login from './components/Login';
+import Register from './components/register';
 import Home from './components/Home';
 import { BrowserRouter,Routes, Route} from 'react-router-dom';
 
@@ -10,6 +9,7 @@ function App() {
         <BrowserRouter>
           <Routes>
               <Route path='/' element={<Login />} />
+              <Route path='/register' element={<Register />} />
               <Route path='/home' element={<Home />} />
           </Routes>
         </BrowserRouter>
